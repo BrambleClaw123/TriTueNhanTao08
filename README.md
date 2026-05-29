@@ -23,6 +23,15 @@ Nhóm thuật toán này sử dụng thêm hàm đánh giá (Heuristic function)
 
 **&nbsp;&nbsp;2.3. Iterative Deepening A\* (IDA\* - Tìm kiếm A\* sâu dần)**
 
+### 3. Local Search Algorithm (Tìm kiếm cục bộ)
+Nhóm thuật toán tìm kiếm cục bộ hoạt động bằng cách cải thiện dần lời giải hiện tại thông qua việc di chuyển sang các trạng thái lân cận có giá trị tốt hơn theo một hàm đánh giá. Thay vì lưu và duyệt toàn bộ cây trạng thái, các thuật toán này chỉ tập trung vào trạng thái hiện tại, giúp tiết kiệm bộ nhớ và phù hợp với các bài toán tối ưu hóa lớn.
+
+**&nbsp;&nbsp;3.1. Hill Climbing Algorithm**
+
+**&nbsp;&nbsp;&nbsp;&nbsp;3.1.1. Simple Hill Climbing**
+
+**&nbsp;&nbsp;&nbsp;&nbsp;3.1.2. Steepest Ascent Hill Climbing**
+
 ## Hướng dẫn chạy chương trình
 
 **Bước 1:** Tải source code về máy và mở file chứa hàm main. Cập nhật biến initial thành trạng thái ban đầu của trò chơi mà bạn muốn giải, sau đó bấm Run All.

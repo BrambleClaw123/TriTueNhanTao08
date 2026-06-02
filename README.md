@@ -32,6 +32,12 @@ Nhóm thuật toán tìm kiếm cục bộ hoạt động bằng cách cải thi
 
 **&nbsp;&nbsp;&nbsp;&nbsp;3.1.2. Steepest Ascent Hill Climbing**
 
+**&nbsp;&nbsp;&nbsp;&nbsp;3.1.3. Random Hill Climbing**
+
+**&nbsp;&nbsp;&nbsp;&nbsp;3.1.4. Random Reset Hill Climbing**
+
+**&nbsp;&nbsp;4.1. Local Beam Search**
+
 ## Hướng dẫn chạy chương trình
 
 **Bước 1:** Tải source code về máy và mở file chứa hàm main. Cập nhật biến initial thành trạng thái ban đầu của trò chơi mà bạn muốn giải, sau đó bấm Run All.

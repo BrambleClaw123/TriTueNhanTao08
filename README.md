@@ -36,7 +36,19 @@ Nhóm thuật toán tìm kiếm cục bộ hoạt động bằng cách cải thi
 
 **&nbsp;&nbsp;&nbsp;&nbsp;3.1.4. Random Reset Hill Climbing**
 
-**&nbsp;&nbsp;4.1. Local Beam Search**
+**&nbsp;&nbsp;3.2. Local Beam Search**
+
+**&nbsp;&nbsp;3.3. Simulated Annealing Algorithm**
+
+### 4. Search in Complex Environments (Tìm kiếm trong môi trường phức tạp)
+
+**&nbsp;&nbsp;4.1. Blind-Environment Search Algorithm**
+
+**&nbsp;&nbsp;&nbsp;&nbsp;4.1.1. Blind-Start Search Algorithm**
+
+**&nbsp;&nbsp;&nbsp;&nbsp;4.1.2. Blind-Goal Search Algorithm**
+
+**&nbsp;&nbsp;4.2. Partial-Environment Search Algorithm**
 
 ## Hướng dẫn chạy chương trình
 

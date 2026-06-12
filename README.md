@@ -50,6 +50,14 @@ Nhóm thuật toán tìm kiếm cục bộ hoạt động bằng cách cải thi
 
 **&nbsp;&nbsp;4.2. Partial-Environment Search Algorithm**
 
+**&nbsp;&nbsp;4.3. And-Or-Graph Search Algorithm**
+
+### 5. Search with Constraint Satisfaction Problem (Tìm kiếm trong môi trường có ràng buộc)
+
+**&nbsp;&nbsp;5.1. Backtracking**
+
+**&nbsp;&nbsp;5.2. Foward Checking**
+
 ## Hướng dẫn chạy chương trình
 
 **Bước 1:** Tải source code về máy và mở file chứa hàm main. Cập nhật biến initial thành trạng thái ban đầu của trò chơi mà bạn muốn giải, sau đó bấm Run All.

@@ -60,6 +60,10 @@ Nhóm thuật toán này được sử dụng cho các bài toán mà mục tiê
 
 **&nbsp;&nbsp;5.2. Foward Checking:** Phiên bản thông minh hơn của Backtracking. Mỗi khi đặt giá trị cho một biến, nó sẽ lập tức "nhìn về phía trước" và xóa bỏ các giá trị không còn hợp lệ ở các biến chưa được thiết lập. Nếu thấy có biến nào ở tương lai bị cạn sạch lựa chọn, nó lập tức quay lui luôn chứ không rảnh để đi tiếp nữa.
 
+**&nbsp;&nbsp;5.3. AC-3 (Arc Consistency):** Thay vì đi tìm lời giải ngay, thuật toán sẽ liên tục kiểm tra các cặp biến có ràng buộc với nhau và loại bỏ những giá trị chắc chắn không thể thỏa mãn ràng buộc đó. Nếu trong quá trình này có biến nào bị xóa hết giá trị khả dụng thì có thể kết luận ngay rằng bài toán vô nghiệm. AC-3 thường được dùng như một bước "dọn đường", giúp giảm đáng kể số lượng trường hợp cần thử khi tìm kiếm lời giải.
+
+**&nbsp;&nbsp;5.4. Min-Conflicts:** Bắt đầu bằng cách gán ngẫu nhiên giá trị cho tất cả các biến, sau đó liên tục chọn một biến đang gây ra xung đột và đổi nó sang giá trị làm giảm số lượng xung đột nhiều nhất. Quá trình này lặp lại cho đến khi không còn vi phạm ràng buộc nào hoặc đạt giới hạn số bước cho phép. Thay vì xây dựng lời giải từng bước như Backtracking, Min-Conflicts sửa dần một lời giải chưa đúng cho đến khi nó trở thành hợp lệ.
+
 ## Hướng dẫn chạy chương trình
 
 **Bước 1:** Tải source code về máy và mở file chứa hàm main. Cập nhật biến initial thành trạng thái ban đầu của trò chơi mà bạn muốn giải, sau đó bấm Run All.

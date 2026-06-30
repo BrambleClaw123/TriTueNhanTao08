@@ -1,7 +1,29 @@
-## Demo
+# 🧩 8-Puzzle Solver - Bài Tập Trí Tuệ Nhân Tạo
+
+<p align="center">
+  <a href="https://github.com/BrambleClaw123/TriTueNhanTao08"><img src="https://img.shields.io/badge/GitHub-Repository-black?logo=github" alt="GitHub"></a>
+  <img src="https://img.shields.io/badge/python-3.8%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/UI-Tkinter-brightgreen" alt="UI Framework">
+  <img src="https://img.shields.io/badge/Course-Artificial_Intelligence-orange" alt="Course">
+</p>
+
+Dự án này áp dụng các thuật toán Trí tuệ nhân tạo (AI) để xây dựng môi trường mô phỏng và giải quyết trò chơi giải đố **8-Puzzle**. Mã nguồn bao gồm giao diện trực quan và các loại thuật toán.
+
+## 🎓 Thông tin sinh viên thực hiện
+
+| Họ và tên | MSSV |
+|:---|:---:|
+| **Huỳnh Phạm Hoàng Kha** | 24110237 |
+
+---
+
+## 🎥 Demo
+
 ![Chạy thử chương trình](./demo.gif)
 
-## Các thuật toán tìm kiếm được tích hợp
+---
+
+## 🧠 Các thuật toán tìm kiếm được tích hợp
 
 ### 1. Uninformed Search Algorithm (Tìm kiếm mù)
 Đây là nhóm thuật toán duyệt qua không gian trạng thái một cách hệ thống mà không có bất kỳ thông tin gợi ý nào về cách đến vị trí của trạng thái đích (Goal State).
@@ -64,7 +86,9 @@ Nhóm thuật toán này được sử dụng cho các bài toán mà mục tiê
 
 **&nbsp;&nbsp;5.4. Min-Conflicts:** Bắt đầu bằng cách gán ngẫu nhiên giá trị cho tất cả các biến, sau đó liên tục chọn một biến đang gây ra xung đột và đổi nó sang giá trị làm giảm số lượng xung đột nhiều nhất. Quá trình này lặp lại cho đến khi không còn vi phạm ràng buộc nào hoặc đạt giới hạn số bước cho phép. Thay vì xây dựng lời giải từng bước như Backtracking, Min-Conflicts sửa dần một lời giải chưa đúng cho đến khi nó trở thành hợp lệ.
 
-## Hướng dẫn chạy chương trình
+---
+
+## ⚙️ Hướng dẫn chạy chương trình
 
 **Bước 1:** Tải source code về máy và mở file chứa hàm main. Cập nhật biến initial thành trạng thái ban đầu của trò chơi mà bạn muốn giải, sau đó bấm Run All.
 
@@ -72,5 +96,5 @@ Nhóm thuật toán này được sử dụng cho các bài toán mà mục tiê
 
 **Bước 3:** Bấm nút "Reset" để xóa các thiết lập hiện tại và đưa ma trận về lại trạng thái khởi tạo ban đầu.
 
-### Lưu ý quan trọng
+### ⚠️ Lưu ý quan trọng
 Sau khi bấm nút "PLAY", thời gian để thuật toán tìm ra lời giải nhanh hay chậm sẽ phụ thuộc rất lớn vào thuật toán bạn lựa chọn và độ khó của trạng thái ban đầu. Hãy chờ đợi nếu chương trình đang xử lý những test case khó.
